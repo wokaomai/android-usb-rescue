@@ -1,0 +1,44 @@
+# Generated environments and packages
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Runtime state, local configuration and personal captures
+data/
+runtime/
+screenshots/
+references/
+control-requests/
+control-results/
+config.json
+status.json
+references.json
+metadata.json
+*.log
+*.tmp
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.mp4
+*.mkv
+
+# Never commit credentials or native runtime bundles
+.env
+.env.*
+*.key
+*.pem
+adbkey*
+credentials*
+*.dll
+*.exe
+*.zip
+*.7z
+.DS_Store
+Thumbs.db

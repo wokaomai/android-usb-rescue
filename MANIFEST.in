@@ -1,0 +1,3 @@
+include README.md THIRD_PARTY_NOTICES.md install.cmd start.cmd
+recursive-include docs *.md
+recursive-include examples *.example.json
